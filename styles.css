@@ -1,32 +1,55 @@
+* {
+    font-family:Arial, Helvetica, sans-serif
+}
 .ddContainer {
-    display: flex;
-    justify-content: flex-start;
+    position: relative;
+    width: 100px;
 }
 
 .ddButtonMain {
     padding: 8px;
     border: none;
-    border-radius: 8px;
+    background: none;
+}
+
+.ddBtnContainerInactive {
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+    border: 1px solid rgb(0, 220, 220);
+    border-radius: 5px;
+}
+
+.ddBtnContainerActive {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 220, 220);
+    border: 1px solid lightgrey;
+    border-radius: 5px;
 }
 
 .ddFieldContainer {
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .ddField {
-    background-image: linear-gradient(#FFFFFF, #BBBBBB);
     border-radius: 5px;
     padding: 8px;
-}
-
-.ddItemContainer {
-
+    display: flex;
+    justify-content: center;
 }
 
 .ddItem {
-    color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #555555;
     display: flex;
     justify-content: center;
-    padding: 8px 0px 0px 0px;
+    padding: 8px 0px 8px 0px;
+}
+
+.ddItem:nth-child(n+2) {
+    border-top: 1px solid rgb(0, 220, 220);
 }
