@@ -1,0 +1,32 @@
+.ddContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ddButtonMain {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+.ddFieldContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.ddField {
+    background-image: linear-gradient(#FFFFFF, #BBBBBB);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.ddItemContainer {
+
+}
+
+.ddItem {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 8px 0px 0px 0px;
+}
